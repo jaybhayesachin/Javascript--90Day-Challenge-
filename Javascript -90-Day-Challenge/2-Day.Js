@@ -36,7 +36,13 @@ for (i=0;i<cities.length;i++)
      document.write(cities[i]+"<br/>")
 }
 
+//int array
+var empid=new Array(10,56,89,7854,452);
+for (i=0;i<empid.length;i++);
+{
 
+     document.write(empid[i]+"<br/>")
+}
 
 
 
