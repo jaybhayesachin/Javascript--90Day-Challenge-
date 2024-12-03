@@ -44,6 +44,19 @@ for (i=0;i<empid.length;i++);
      document.write(empid[i]+"<br/>")
 }
 
+CONCAT ARRAY
+var sub1=["c","c++","python","java"]
+var sub2=["c#","ADO","SQL"]
 
+var result=sub1.concat(sub2);
+
+document.write("<hr/>")
+
+var country=["india","America","japan"]
+var states=["maharashtra","MP","Kerala"]
+var cities=["pune","satara","Nashik"]
+
+var res1=country.concat(states,cities)
+document.write(res1)
 
 
